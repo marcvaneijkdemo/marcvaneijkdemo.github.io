@@ -1,0 +1,12 @@
+---
+// This is a partial.
+// It lies in <source>/_sass, just waiting to be imported.
+---
+$background-color: blue;
+
+body {
+    margin:0;
+    padding:0;
+    background-color: $background-color;
+    font-family: "Open Sans",sans-serif;
+}
