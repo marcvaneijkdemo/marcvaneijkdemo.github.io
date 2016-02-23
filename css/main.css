@@ -7,7 +7,7 @@ body {
     font-family: "Open Sans",sans-serif;
 }
 
-// Header
+/* Header */
 .siteHeaderWrapper {
     width: 100%;
     background-color: #ffffff;
@@ -21,7 +21,7 @@ body {
     padding-bottom: 30px;
     }
 
-// Menu
+/* Menu */
 .siteMenuWrapper {
     width: 100%;
     background-color: #000000;
@@ -35,7 +35,7 @@ body {
     }
 
 
-// Content
+/* Content */
 .siteContainer {
     width: 1100px;
     margin-right: auto;
@@ -53,7 +53,7 @@ body {
     float: left;
 }
 
-// Footer
+/* Footer */
 .siteFooterWrapper {
     width: 100%;
     background-color: #000000;
