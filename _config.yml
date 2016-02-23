@@ -1,2 +1,6 @@
-name: Marc van Eijk
+# Site Details
+title: Marc van Eijk
+description: Microsoft Cloud Platform
+
+#markdown type
 markdown: kramdown
