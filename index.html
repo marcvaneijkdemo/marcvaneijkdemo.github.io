@@ -2,8 +2,9 @@
 layout: default
 ---
 <div>{{ page.title }}</div>
+
 	<ul>
-	  {% for post in site.posts %}
+	  {% for post in paginator.posts %}
 	    <li>
 	    	<div><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
 	    	<div>{{ post.date | date: "%B %d, %Y" }}</div>
@@ -11,3 +12,17 @@ layout: default
 	    	</li>
 	  {% endfor %}
 	</ul>
+
+<div>
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}">Previous</a>
+  {% else %}
+    <span>Previous</span>
+  {% endif %}
+  <span>Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}">Next</a>
+  {% else %}
+    <span>Next</span>
+  {% endif %}
+</div>
