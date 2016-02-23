@@ -4,3 +4,6 @@ description: Microsoft Cloud Platform
 
 #markdown type
 markdown: kramdown
+
+# Number of post to display on index.html
+paginate: 2
