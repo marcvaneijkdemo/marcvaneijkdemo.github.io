@@ -5,13 +5,11 @@ layout: default
 
 	<ul>
 	  {% for post in paginator.posts %}
-	  {% if post.published != false %} 
 	    <li>
 	    	<div><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
 	    	<div>{{ post.date | date: "%B %d, %Y" }}</div>
 	    	<div>{{ post.content }}</div>
 	    	</li>
-	  {% endif %} 
 	  {% endfor %}
 	</ul>
 
