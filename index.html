@@ -7,7 +7,7 @@ layout: default
 	    <li>
 	    	<div><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
 	    	<div>{{ post.date | date: "%B %d, %Y" }}</div>
-	    	<div>{{ content }}</div>
+	    	<div>{{ post.content }}</div>
 	    	</li>
 	  {% endfor %}
 	</ul>
