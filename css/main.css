@@ -1,9 +1,11 @@
 ---
 ---
+$background-color: blue;
+
 body {
     margin:0;
     padding:0;
-    background-color: #e3e3e3;
+    background-color: $background-color
     font-family: "Open Sans",sans-serif;
 }
 
