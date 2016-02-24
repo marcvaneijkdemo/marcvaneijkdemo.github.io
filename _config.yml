@@ -2,8 +2,15 @@
 title: Marc van Eijk
 description: Microsoft Cloud Platform
 
+# Links for for Menu
+menulinks:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
+
 #markdown type
 markdown: kramdown
 
 # Number of post to display on index.html
 paginate: 2
+
