@@ -7,6 +7,10 @@ body {
     font-family: "Open Sans",sans-serif;
 }
 
+.clearFloat {
+    clear: both;
+}
+
 /* Header */
 .siteHeaderWrapper {
     width: 100%;
