@@ -20,7 +20,9 @@
     <div class="siteMenuWrapper">
         <div class="siteMenu">
             <div class="siteMenuLinks">
-
+                {% for page in site.menulinks %}
+                    <a class="siteMenuLink" href="{{ page[1]  }}">{{ page[0] }}</a>
+                {% endfor %}
             </div>
         </div>
     </div>
