@@ -7,6 +7,3 @@ markdown: kramdown
 
 # Number of post to display on index.html
 paginate: 2
-
-# Include two non default folders for pages and widgets  
-include: ["_pages"]  
