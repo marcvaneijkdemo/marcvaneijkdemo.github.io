@@ -3,10 +3,12 @@ layout: default
 ---
 	<ul class="contentIndexUl">
 	  {% for post in paginator.posts %}
-	    <li class="contentIndexLi">
+	    <li>
+	    	<div class="contentIndexLi">
 	    	<div><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
 	    	<div>{{ post.date | date: "%B %d, %Y" }}</div>
 	    	<div>{{ post.content }}</div>
+	    	</div>
 	    	</li>
 	  {% endfor %}
 	</ul>
