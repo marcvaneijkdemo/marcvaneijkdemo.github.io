@@ -1,3 +1,8 @@
+.contentIndexUl {
+padding: 0px;
+margin: 0px;
+}
+
 .contentIndexLi {
 background-color: #ffffff;
 }
