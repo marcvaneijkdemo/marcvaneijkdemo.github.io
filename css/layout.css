@@ -46,9 +46,9 @@ body {
     margin-left: auto;
 }
 
-.siteContent {
+.siteContentMain {
     width: 800px;
-    float: left;
+    float:left;
 }
 
 .siteWidgets {
