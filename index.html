@@ -4,7 +4,7 @@ layout: default
 	<ul class="contentIndexUl">
 	  {% for post in paginator.posts %}
 	    <li>
-	    		<div>
+	    		<div class="contentIndexLi">
 	    			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 	    			{{ post.date | date: "%B %d, %Y" }}
 	    			{{ post.content }}
