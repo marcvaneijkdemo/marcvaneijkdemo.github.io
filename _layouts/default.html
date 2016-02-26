@@ -32,9 +32,13 @@
     <div class="siteContentWrapper">
         <div class="siteContent">{{ content }}</div>
         <div class="siteWidgets">
-            <div class="widgetSearch">Search</div>
-            <div class="widgetMeta">Meta</div>
-        </div>
+            <div class="widgetSearch">
+                <form action="get" id="site_search">
+                    <input style="font-size:20px;" type="text" id="search_box">
+                    <input style="font-size:20px;" type="submit" value="Go!">
+                </form>
+            </div>
+        <div class="widgetMeta">Meta</div>
     </div>
     <div class="siteFooterWrapper">
         <div class="siteFooter">{{ site.footer }}</div>
