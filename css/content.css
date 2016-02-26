@@ -1,3 +1,20 @@
+/* Generic */
+.content {
+font-size: 17px;
+color: #3a3a3a;
+}
+
+.contentTitle {
+font-size: 30px;
+color: #1e73be;
+}
+
+.contentMeta {
+font-size: 15px;
+color: #666666;
+}
+
+/* Index */
 .contentIndexUl {
 padding: 0px;
 margin: 0px;
