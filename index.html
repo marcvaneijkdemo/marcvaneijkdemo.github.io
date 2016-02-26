@@ -7,7 +7,7 @@ layout: default
 	    		<div class="contentIndexLi">
 	    			<a class="contentTitle" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 	    			<div class="contentMeta">{{ post.date | date: "%B %d, %Y" }}</div>
-	    			<div class="content">{{ post.content }}</div>
+	    			<div class="content">{{ post.excerpt }}</div>
     			</div>
 	    	</li>
 	{% endfor %}
