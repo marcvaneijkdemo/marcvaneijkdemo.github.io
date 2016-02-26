@@ -15,3 +15,5 @@ markdown: kramdown
 # Number of post to display on index.html
 paginate: 2
 
+# Read more seperator
+excerpt_separator: <!--more-->
