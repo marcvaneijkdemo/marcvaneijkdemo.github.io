@@ -5,7 +5,7 @@ layout: default
 	  {% for post in paginator.posts %}
 	    <li>
 	    		<div class="contentIndexLi">
-	    			<div class="contentTitle"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
+	    			<div class="contentTitle"><a class="contentTitleLink" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
 	    			<div class="contentMeta">{{ post.date | date: "%B %d, %Y" }}</div>
 	    			<div class="content">{{ post.content }}</div>
     			</div>
