@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Search
+title: Search Results
 ---
 
-<div id="search-results">
-    <hr id="first-hr"/>
+<h1 id="searchHeader">Search results</h1>
 
-    {% for post in site.posts %}
-    <div id="{{ post.id | replace: '/', '-' }}">
-    {% endfor %}
-</div>
+<noscript><p>Sorry, the current site search is form Javascript. Please try this link to search from Google.</p></noscript>
+
+<div id="buildResults"></div>
