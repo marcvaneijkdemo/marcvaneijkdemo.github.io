@@ -3,7 +3,6 @@ jQuery(function() {
   // a boost of 10 to indicate matches on this field are more important.
   window.idx = lunr(function () {
     this.field('title', { boost: 10 });
-    this.field('category');
     this.field('content');
   });
 
