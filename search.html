@@ -3,14 +3,10 @@ layout: post
 title: Search
 ---
 
-<script>
-    var baseurl = "{{ site.baseurl }}";
-</script>
-
 <div id="search-results">
-    <hr id="first-hr" class="with-no-margin"/>
+    <hr id="first-hr"/>
 
     {% for post in site.posts %}
-    <div id="{{ post.id | replace: '/', '-' }}" style="display: none;">
+    <div id="{{ post.id | replace: '/', '-' }}">
     {% endfor %}
 </div>
