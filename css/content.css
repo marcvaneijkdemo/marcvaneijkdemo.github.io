@@ -4,11 +4,11 @@
   color: #3a3a3a;
 }
 
-a.p {
+a {
   text-decoration: none;
 }
 
-a.p:hover {
+a:hover {
   color: #1a1a1a;
 }
 
@@ -17,7 +17,7 @@ a.p:hover {
   color: #1e73be;
   font-weight: 300;
 }
-
+/*
 a.contentTitle {
   text-decoration: none;
 }
@@ -25,6 +25,7 @@ a.contentTitle {
 a.contentTitle:hover {
   color: #1a1a1a;
 }
+*/
 
 .contentMeta {
   font-size: 15px;
