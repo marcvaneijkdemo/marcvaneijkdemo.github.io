@@ -1,34 +1,37 @@
 /* Generic */
-.content {
-font-size: 17px;
-color: #3a3a3a;
+  .content {
+  font-size: 17px;
+  color: #3a3a3a;
 }
 
 .contentTitle {
-font-size: 30px;
-color: #1e73be;
-text-decoration:none;
+  font-size: 30px;
+  color: #1e73be;
+  font-weight: 300;
+  a {
+    text-decoration:none;
+    }
 }
 
 .contentMeta {
-font-size: 15px;
-color: #666666;
+  font-size: 15px;
+  color: #666666;
 }
 
 .contentEdit {
-font-size: 15px;
-color: #666666;
+  font-size: 15px;
+  color: #666666;
 }
 
 /* Index */
 .contentIndexUl {
-padding: 0px;
-margin: 0px;
-list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
 }
 
 .contentIndexLi {
-background-color: #ffffff;
-padding: 40px;
-margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 40px;
+  margin-bottom: 20px;
 }
