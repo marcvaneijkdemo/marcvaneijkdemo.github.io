@@ -1,18 +1,18 @@
 ---
 layout: default
 ---
-	<ul class="contentIndexUl">
-	  {% for post in paginator.posts %}
-	    <li>
+<ul class="contentIndexUl">
+	{% for post in paginator.posts %}
+		<li>
 	    		<div class="contentIndexLi">
 	    			<a class="contentTitle" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 	    			<div class="contentMeta">{{ post.date | date: "%B %d, %Y" }}</div>
 	    			<div class="content">{{ post.content }}</div>
     			</div>
-	    </li>
-	  {% endfor %}
-	</ul>
-
+	    	</li>
+	{% endfor %}
+</ul>
+<div class="contentPaginator">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}">Previous</a>
   {% else %}
