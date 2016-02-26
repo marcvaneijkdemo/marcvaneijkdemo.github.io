@@ -33,9 +33,8 @@
         <div class="siteContent">{{ content }}</div>
         <div class="siteWidgets">
             <div class="widgetSearch">
-                <form action="get" id="site_search">
-                    <input style="font-size:20px;" type="text" id="search_box">
-                    <input style="font-size:20px;" type="submit" value="Go!">
+                <form action="/search">
+                    <input class="mve-site-widget-searchbox" type="search" id="search" name="q" placeholder="Search.." />
                 </form>
             </div>
             <div class="widgetMeta">Meta</div>
