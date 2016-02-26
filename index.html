@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<ul class="contentWrapper">
+<ul class="contentIndexUl">
 	{% for post in paginator.posts %}
 		<li>
-	    		<div class="contentIndexLi">
+	    		<div class="contentWrapper">
 	    			<a class="contentTitle" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 	    			<div class="contentMeta">{{ post.date | date: "%B %d, %Y" }}</div>
 	    			<div class="content">
