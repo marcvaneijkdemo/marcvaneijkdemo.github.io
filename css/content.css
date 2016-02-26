@@ -1,16 +1,23 @@
 /* Generic */
-  .content {
+.content {
   font-size: 17px;
   color: #3a3a3a;
 }
+
+a.content: {}
 
 .contentTitle {
   font-size: 30px;
   color: #1e73be;
   font-weight: 300;
-  a {
-    text-decoration:none;
-    }
+}
+
+a.contentTitle {
+  text-decoration: none;
+}
+
+a.contentTitle:hover {
+  color: yellow;
 }
 
 .contentMeta {
