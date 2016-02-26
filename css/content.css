@@ -4,11 +4,11 @@
   color: #3a3a3a;
 }
 
-a.content {
+a.p {
   text-decoration: none;
 }
 
-a.content:hover {
+a.p:hover {
   color: #1a1a1a;
 }
 
