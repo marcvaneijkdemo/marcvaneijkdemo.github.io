@@ -9,9 +9,7 @@ layout: default
 	    			<div class="contentMeta">{{ post.date | date: "%B %d, %Y" }}</div>
 	    			<div class="content">
 	    				{{ post.excerpt }}
-	    				{% if post.content contains site.excerpt_separator %}
-						<a href="{{ post.url | prepend: site.baseurl }}">...Read more</a>
-					{% endif %}
+
 	    			</div>
     			</div>
 	    	</li>
