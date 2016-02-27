@@ -67,4 +67,5 @@ a:hover {
 .widgetSearchUl {
   list-style-type: none;
   padding: 0px;
+  padding-top: 10px;
 }
