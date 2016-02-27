@@ -6,7 +6,6 @@ footer: Marc van Eijk
 # Links for for Menu
 menulinks:       
   About: '/about'
-  Search: '/search'
   Feed: '/atom.xml'
 
 #markdown type
