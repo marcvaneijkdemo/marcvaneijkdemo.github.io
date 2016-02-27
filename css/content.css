@@ -54,7 +54,7 @@ a:hover {
   margin-bottom: 20px;
 }
 
-widgetSearchUl {
+.widgetSearchUl {
   list-style-type: none;
   padding: 0px;
 }
