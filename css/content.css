@@ -54,6 +54,16 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.widgetSearchBox {
+  width: 100%; 
+  font-family: "Open Sans",sans-serif;
+  font-size: 17px;
+  background-color: #fafafa;
+  border: 1px solid #cccccc;
+  color: #666666;
+  padding: 10px 15px;
+}
+
 .widgetSearchUl {
   list-style-type: none;
   padding: 0px;
