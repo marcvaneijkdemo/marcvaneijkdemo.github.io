@@ -33,7 +33,13 @@
         <div class="siteContent">{{ content }}</div>
         <div class="siteWidgets">
             <div class="widgetSearch">
-                <div id="search">search</div>
+                <div id="search">
+                    <form action="get" id="site_search">
+                        <input type="text" id="search_box">
+                        <input type="submit" value="Go!">
+                    </form>
+                    <ul id="search_results"></ul>
+                </div>
             </div>
             <div class="widgetMeta">Meta</div>
         </div>
@@ -42,4 +48,8 @@
         <div class="siteFooter">{{ site.footer }}</div>
     </div>
 </body>
+<!-- sripts for search -->
+<script src="/js/lunr.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/search.js"></script>
 </html>
