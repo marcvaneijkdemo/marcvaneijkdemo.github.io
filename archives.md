@@ -2,24 +2,6 @@
 layout: default
 title: Post by Date
 ---
-<section id="archive">
-  {%for post in site.posts %}
-    {% unless post.next %}
-      <ul class="this">
-    {% else %}
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-      {% if year != nyear %}
-        </ul>
-        <h3>{{ post.date | date: '%Y' }}</h3>
-        <ul class="past">
-      {% endif %}
-    {% endunless %}
-      <li><time>{{ post.date | date:"%d %b" }}</time><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-  </ul>
-</section>
-
 <h2>Archives</h2>
 <ul>
   {% for post in site.posts %}
@@ -34,6 +16,6 @@ title: Post by Date
       {% endif %}
     {% endunless %}
 
-    <li>{{ post.date | date:"%d %b" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li>{{ post.date | date:"%B %d" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
